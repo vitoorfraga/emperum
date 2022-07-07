@@ -1,0 +1,89 @@
+// Responsivo Mobile
+@media (max-width: 565px) {
+.intro-title{
+  text-align: center;
+}
+
+.buttons{
+  text-align: center;
+}
+  }
+
+
+// Responsivo Tablets
+@media (max-width: 768px) {
+
+  .menu{
+    display: none;
+  }
+
+  #abrir-menu{
+    display: flex;
+  }
+
+  #sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5rem;
+    flex-direction: column-reverse;
+  }
+
+  .sobre-content{
+    margin: 0 auto;
+  }
+
+  .sobre-image{
+    max-width: 25rem;
+
+    margin: 0 auto;
+  }
+
+  .servicos-itens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .servico-item{
+    flex-grow: 1;
+    height: 14.2rem;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    border-radius: .4rem;
+
+    border-bottom: .2rem solid var(--gray);
+  
+  
+
+    transition: .2s ease-out;
+  }
+
+  #contato{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-left{
+    width: 100%;
+  }
+  
+  .contact-right{
+    width: 100%;
+  }
+
+
+
+}
+
+// Desktop - Resoluções menores
+@media (max-width: 1100px) {
+}
